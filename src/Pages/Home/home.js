@@ -33,7 +33,7 @@ const Home = () => {
         <h3 className="App-tittle">Ultima Búsqueda</h3>
         <ListOfGifs gifs={gifs}/>
         <h3 className="App-tittle"> Los gifs más populares</h3>
-
+        
         <ul>
             {POPULAR_GIFS.map((popularGif) => (
                 <li key={popularGif}>
